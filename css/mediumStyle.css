@@ -1,0 +1,240 @@
+
+
+/*index styles*/
+
+h1 {
+	width:47%;
+}
+
+.pageP {
+	width:60%;
+}
+
+#tourLink {
+	width:25%;
+}
+
+/*work styles*/
+
+#grade_visual_sel {
+	width:100%;
+	display:inline-block;
+}
+
+.vis_Sel {
+	width:25%;
+	display:inline-block;
+	border-radius:0%;
+	border:none;
+}
+
+.grade {
+	margin-top:150px;
+	color:#008080;
+	opacity:1;
+	transform:scale(1);
+	border:1px solid #008080;
+	transition:all 0.4s ease-in-out;
+}
+
+.grade:hover {
+	background-color:#008080;
+	border:1px solid #008080;
+	color:#ffffff;
+}
+
+#projArea {
+	width:100%;
+}
+
+.projects {
+	margin-left:0%;
+	margin-right:0%;
+	margin-bottom:0%;
+}
+
+#first {
+	background-image:url("../img/firstProject.jpg");
+	border-radius:0%;
+	height:200px;
+	width:50%;
+	border:none;
+	float:left;
+}
+
+#second {
+	background-image:url("../img/behanced/firstIllustration.jpg");
+	border-radius:0%;
+	width:50%;
+	height:200px;
+	border:none;
+	float:right;
+	margin-top:200px;
+}
+#third {
+	background-image:url("../img/behanced/Morgan_Freeman.jpg");
+	border-radius:0%;
+	width:50%;
+	height:200px;
+	border:none;
+	float:left;
+	margin-top:200px;
+}
+
+#fourth {
+	background-image:url("../img/behanced/2015skills/2015skillsshirt.jpg");
+	border-radius:0%;
+	width:50%;
+	height:200px;
+	border:none;
+	float:left;
+}
+
+#fifth {
+	background-image:url("../img/behanced/treasurechest/treasureches.png");
+	border-radius:0%;
+	width:50%;
+	height:200px;
+	border:none;
+	float:right;
+	margin-top:200px;
+}
+
+#sixth {
+	background-image:url("../img/behanced/lillies/lilliesanimation.PNG");
+	border-radius:0%;
+	width:50%;
+	height:200px;
+	border:none;
+	float:left;
+	margin-top:200px;
+}
+
+#seventh {
+	background-image:url("../img/behanced/basketball/basketballinfographic.jpg");
+	border-radius:0%;
+	width:50%;
+	height:200px;
+	border:none;
+	float:right;
+	margin-top:200px;
+}
+
+#eigth {
+	background-image:url("../img/behanced/alderman/aldermananimation.PNG");
+	border-radius:0%;
+	width:50%;
+	height:200px;
+	border:none;
+	float:left;
+	margin-top:200px;
+}
+
+#nineth {
+	background-image:url("../img/behanced/ACTElogo/ACTELOGOweeks.png");
+	border-radius:0%;
+	width:50%;
+	height:200px;
+	border:none;
+	float:right;
+	margin-top:200px;
+}
+
+#tenth {
+	background-image:url("../img/behanced/brianhead/P1_Weeks_brianhead.jpg");
+	border-radius:0%;
+	width:50%;
+	height:200px;
+	border:none;
+	float:left;
+	margin-top:200px;
+}
+
+#eleventh {
+	background-image:url("../img/behanced/2016skills/2016_skillsUSAshirt.jpg");
+	border-radius:0%;
+	width:50%;
+	height:200px;
+	border:none;
+	float:left;
+}
+
+#twelfth {
+	background-image:url("../img/behanced/80yearslogo/bigimage.png");
+	border-radius:0%;
+	width:50%;
+	height:200px;
+	border:none;
+	float:right;
+	margin-top:200px;
+}
+
+#thirteenth {
+	background-image:url("../img/behanced/lvgea/lvgealogo1.jpg");
+	border-radius:0%;
+	width:50%;
+	height:200px;
+	border:none;
+	float:left;
+	margin-top:200px;
+}
+
+#fourteenth {
+	background-image:url("../img/behanced/indesign/IndesignLayout2.png");
+	border-radius:0%;
+	width:50%;
+	height:200px;
+	border:none;
+	float:right;
+	margin-top:200px;
+}
+
+#fifteenth {
+	background-image:url("../img/hourOfCode.jpg");
+	border-radius:0%;
+	width:50%;
+	height:200px;
+	border:none;
+	float:left;
+	margin-top:200px;
+}
+
+#sixteenth {
+	background-image:url("../img/typography.png");
+	border-radius:0%;
+	width:50%;
+	height:200px;
+	border:none;
+	float:right;
+	margin-top:200px;
+}
+
+#seventeenth {
+	background-image:url("../img/behanced/vans/vansshoes.png");
+	border-radius:0%;
+	width:50%;
+	height:200px;
+	border:none;
+	float:left;
+	margin-top:200px;
+}
+
+.move {
+	width:90%;
+	padding-top:20px;
+	display:block;
+}
+
+.left {
+	margin-left:105%;
+}
+
+.right {
+	margin-left:-90%;
+}
+
+/*contact style*/
+
+#submit {
+	width:25%;
+}

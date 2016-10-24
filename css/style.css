@@ -1,0 +1,427 @@
+body,
+html {
+	height:100%;
+	width:100%;
+	margin:0;
+	font-family:"basic cover font", "Haragino Snas", sans-serif;
+	font-size:18px;
+	font-weight:lighter;
+}
+
+.wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+a {
+	text-decoration:none;
+	color:#000000;
+}
+
+.gutter {
+	content:"";
+	display:table;
+	clear:both;
+}
+
+hr {
+	margin:auto;
+	width:70%;
+	height:2px;
+	background-color:#008080;
+	display:none;
+}
+
+/*nav styles*/
+
+nav {
+	width:100%;
+	padding:20px 0px 20px 0px;
+	text-align:center;
+}
+
+h3 {
+	text-transform:uppercase;
+	font-weight:lighter;
+	color:#008080;
+	letter-spacing:10px;
+}
+
+#foot_nav {
+	display:none;
+}
+
+#nav_ul {
+	width:80%;
+	margin:auto;
+	height:auto;
+	padding-left:0px;
+	display:flex;
+	justify-content:space-between;
+}
+
+.nav_li {
+	list-style-type:none;
+	float:left;
+	display:inline;
+	transition:all 0.4s ease-in-out;
+}
+
+.nav_li a {
+	text-transform:uppercase;
+	color:#000;
+	display:inline-block;
+	padding:30px 10px 30px 10px;
+	transition:all 0.4s ease-in-out;
+}
+
+.nav_li:before, .nav_li:after {
+	content:"";
+	width:0%;
+	display:block;
+	height:3px;
+	margin:auto;
+	background-color:transparent;
+	transition:all 0.4s ease-in-out;
+}
+
+.nav_li a:hover {
+	color:#008080;
+}
+
+.nav_li:hover:before, .nav_li:hover:after {
+	background-color:#008080;
+	width:100%;
+}
+
+/*header image styles*/
+
+.headImage {
+	width:100%;
+	height:500px;
+}
+
+#homeImage,
+#aboutImage,
+#workImage {
+	background-image:url("../img/brook.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+/*body styles*/
+
+.basicBody {
+	width:100%;
+	height:auto;
+	padding:40px 0px 40px 0px;
+	text-align:center;
+}
+
+h1 {
+	font-size:25px;
+	font-weight:lighter;
+	color:#008080;
+	width:25%;
+	margin:auto;
+	margin-bottom:20px;
+	height:auto;
+	padding:0px 0px 10px 0px;
+	border-bottom:1px solid #008080;
+	text-transform:uppercase;
+}
+
+.pageP {
+	width:45%;
+	margin:auto;
+	margin-bottom:10px;
+	line-height:30px;
+	text-align:left;
+}
+
+#tourLink {
+	margin:auto;
+	width:10%;
+	padding:10px 5px 10px 5px;
+	border:1px solid #000000;
+	text-transform:uppercase;
+	transition:all 0.4s ease-in-out;
+}
+
+#tourLink:hover {
+	background-color:#008080;
+	color:#ffffff;
+	border:1px solid #008080;
+}
+
+/*footer styles*/
+
+footer {
+	width:100%;
+	padding:10px 0px 10px 0px;
+	background-color:#008080;
+	text-align:center;
+	color:#ffffff;
+}
+
+/*about styles*/
+
+#personalImage {
+	margin:auto;
+	margin-bottom:20px;
+	height:10em;
+	width:10em;
+	border-radius:50%;
+	border:1px solid #008080;
+	background-image:url("../img/newyorkweb.png");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+/*work styles*/
+
+.workPage {
+	margin-bottom:20px;
+}
+
+#galleryTitle {
+	width:15%;
+	margin:auto;
+	padding:20px 20px 20px 20px;
+	border:1px solid #000;
+	text-transform:uppercase;
+	transition:all 0.4s ease-in-out;
+}
+
+#galleryTitle:hover {
+	background-color:#008080;
+	border:1px solid #008080;
+	color:#ffffff;
+}
+
+#grade_visual_sel {
+	width:80%;
+	height:auto;
+	margin:auto;
+	padding:15px 0px 15px 0px;
+	display:flex;
+	justify-content:space-between;
+}
+
+.vis_Sel {
+	width:8em;
+	height:8em;
+	border-radius:50%;
+	border:1px solid #000000;
+	float:left;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+	transition:all 0.4s ease-in-out;
+}
+
+.grade {
+	color:#ffffff;
+	border:1px solid #ffffff;
+	width:70%;
+	margin:auto;
+	margin-top:50px;
+	text-transform:uppercase;
+	padding:10px 0px 10px 0px;
+	transition:all 0.4s ease-in-out;
+	opacity:0;
+	transform:scale(0);
+}
+
+#ninSel {
+	background-image:url("../img/firstProject.jpg");
+}
+
+#tenSel {
+	background-image:url("../img/behanced/lillies/lilliesanimation.PNG");
+}
+
+#eleSel {
+	background-image:url("../img/hourofCode.jpg");
+}
+
+#tweSel {
+	background-image:url("../img/newyorkweb.png");
+}
+
+.vis_Sel:hover {
+	box-shadow:inset 0px 0px 0px 100px rgba(0, 128, 128, 0.6);
+}
+
+.vis_Sel:hover .grade {
+	opacity:1;
+	transform:scale(1);
+}
+
+.grade:hover {
+	background-color:#ffffff;
+	color:#008080;
+	border:1px solid #008080;
+}
+
+#projArea {
+	width:80%;
+	height:auto;
+	margin:auto;
+	padding:20px 0px 20px 0px;
+}
+
+.proArea {
+	width:100%;
+	height:auto;
+	display:none;
+	padding:60px 0px 60px 0px;
+}
+
+.projects {
+	height:8em;
+	width:8em;
+	margin-right:5%;
+	margin-left:5%;
+	margin-bottom:20px;
+	border:1px solid #008080;
+	float:left;
+	border-radius:50%;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.grade_Int {
+	width:35%;
+	margin:auto;
+	border-bottom:1px solid #000000;
+	color:#000000;
+}
+
+#first {
+	background-image:url("../img/firstProject.jpg");
+}
+#second {
+	background-image:url("../img/behanced/firstIllustration.jpg");
+}
+#third {
+	background-image:url("../img/behanced/Morgan_Freeman.jpg");
+}
+
+#fourth {
+	background-image:url("../img/behanced/2015skills/2015skillsshirt.jpg");
+}
+
+#fifth {
+	background-image:url("../img/behanced/treasurechest/treasureches.png");
+}
+
+#sixth {
+	background-image:url("../img/behanced/lillies/lilliesanimation.PNG");
+}
+
+#seventh {
+	background-image:url("../img/behanced/basketball/basketballinfographic.jpg");
+}
+
+#eigth {
+	background-image:url("../img/behanced/alderman/aldermananimation.PNG");
+}
+
+#nineth {
+	background-image:url("../img/behanced/ACTElogo/ACTELOGOweeks.png");
+}
+
+#tenth {
+	background-image:url("../img/behanced/brianhead/P1_Weeks_brianhead.jpg");
+}
+
+#eleventh {
+	background-image:url("../img/behanced/2016skills/2016_skillsUSAshirt.jpg");
+}
+
+#twelfth {
+	background-image:url("../img/behanced/80yearslogo/bigimage.png");
+}
+#thirteenth {
+	background-image:url("../img/behanced/lvgea/lvgealogo1.jpg");
+}
+#fourteenth {
+	background-image:url("../img/behanced/indesign/IndesignLayout2.png");
+}
+#fifteenth {
+	background-image:url("../img/hourOfCode.jpg");
+}
+#sixteenth {
+	background-image:url("../img/typography.png");
+}
+#seventeenth {
+	background-image:url("../img/behanced/vans/vansshoes.png");
+}
+
+.move {
+	display:none;
+}
+/*Contact Form*/
+
+#contH1 {
+	text-align:center;
+}
+
+form {
+	width:80%;
+	height:auto;
+	padding:20px 0px 20px 0px;
+	margin:auto;
+}
+
+label, input, textarea {
+	display:block;
+	outline:none;
+}
+
+label {
+	text-transform:uppercase;
+	margin-bottom:10px;
+	font-size:25px;
+	font-weight:lighter;
+}
+
+input, textarea {
+	margin-bottom:10px;
+	font-size:18px;
+	width:100%;
+	border:1px solid #000000;
+	border-radius:10px;
+	padding:5px;
+}
+
+input {
+	height:40px;
+}
+
+textarea {
+	min-height:200px;
+	margin-bottom:20px;
+}
+
+#submit {
+	margin:auto;
+	width:20%;
+	background-color:#ffffff;
+	border:1px solid #000000;
+	color:#000000;
+	border-radius:10px;
+	padding:0px 5px 0px 5px;
+	text-transform:uppercase;
+	transition:all 0.4s ease-in-out;
+}
+
+#submit:hover {
+	background-color:#008080;
+	border:1px solid #008080;
+	color:#ffffff;
+}
